@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TravelBloom</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand">TravelBloom</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="search-area">
+      <input type="text" id="searchInput" placeholder="Search beach, temple, country...">
+      <button id="searchBtn" type="button">Search</button>
+      <button id="resetBtn" type="button" class="secondary">Reset</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Discover Your Next Adventure</h1>
+      <p>
+        TravelBloom helps you find unforgettable destinations around the world.
+        Whether you dream of sun-soaked beaches, ancient temples, or vibrant
+        cities, search for a keyword above and we'll recommend places you'll love.
+      </p>
+    </div>
+  </header>
+
+  <section id="results" class="results"></section>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>
