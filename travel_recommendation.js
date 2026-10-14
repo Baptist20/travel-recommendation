@@ -21,7 +21,7 @@ let travelData = null;
 let clockTimer = null;
 
 // Tasks 6: fetch the JSON data
-fetch('travel_recommendation_api.json')
+fetch('travel_recommendation.json')
   .then(res => res.json())
   .then(data => {
     travelData = data;
